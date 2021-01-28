@@ -184,7 +184,7 @@ body nav.header-site-main {
     padding-top: 0;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 0;
     position: fixed;
     z-index: 40;
     justify-content: flex-start !important;
@@ -219,6 +219,7 @@ body {
     object-fit: ÑÑ;
     top: 7.4%;
     height: auto;
+    z-index: 10;
 }
 
 
@@ -316,14 +317,14 @@ body nav div#sideMenu {
 .section_1 img.absolute+div{
     text-align: center;
     width: 100%;
-    position: ;
+    position: relative;
     z-index: 9;
 }
  .section_1 .content-main h1 {
-    font-size: 10rem;
+    font-size: 11rem;
     color: #e6e6e6;
     line-height: 1;
-    margin-top: 3%;
+    margin-top: 0;
     margin-bottom: 0%;
     font-weight: 500;
     font-family:"insaitika" , sans-serif !important;
@@ -348,7 +349,7 @@ font-family: "insaitika" , sans-serif !important;}
     font-size: 1.2em;
 }
  .section_1 .content-main p.offer:last-of-type {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .home .soc_div {position: absolute;z-index: -1;display: flex;display: -ms-flexbox;flex-direction: column;height: 50%;top: 40%;width: 50px;justify-content: space-around;right: 5.5%;align-items: center;transform: translateY(-50%);z-index: 10;}
